@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>GRUPO E</title>
+     <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="grupos.css">
 </head>
 <body>
-<a href="index.html"><img title="VOLTAR PARA A FASE DE GRUPOS" src="https://cdn-icons-png.flaticon.com/512/69/69524.png?w=360" width="32" height="32"></a>
-<h1>GRUPO E</h1>
-<fieldset>
-    <legend>CLASSIFICAÇÕES</legend>
-<table border="1">
-    <thead>
-        <tr>
-        <th></th>
-        <th> P </th>
-        <th> J </th>
-        <th> V </th>
-        <th> E </th>
-        <th> D </th>
-        <th> GP </th>
-        <th> GC </th>
-        <th> SG </th>
-        <th> % </th>
-        <th> ÚLT. JOGOS </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><img src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" width="40" height="20"> ALEMANHA</td>
+<a href="index.html"><img title="VOLTAR PARA A FASE DE GRUPOS" src="https://cdn-icons-png.flaticon.com/512/69/69524.png?w=360" width="64" height="64" class="IconeVoltar"></a>
+    <h1 class="display-1 grupo">GRUPO E</h1>
+    <h1 class="display-4 classif">CLASSIFICAÇÕES</h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">P</th>
+            <th scope="col">J</th>
+            <th scope="col">V</th>
+            <th scope="col">E</th>
+            <th scope="col">D</th>
+            <th scope="col">GP</th>
+            <th scope="col">GC</th>
+            <th scope="col">SG</th>
+            <th scope="col">%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><img src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" width="50" height="30"> ALEMANHA</th>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -37,10 +38,9 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><img src="TelaPreta.png" alt="Bandeira ?" width="40" height="20"> COSTA RICA <br>OU NOVA ZELÂNDIA</td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="GrupoE/BandeiraCostaRica.png" alt="Bandeira da Costa Rica" width="50" height="30"> COSTA RICA</th>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -50,10 +50,8 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><img src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Esapnha" width="40" height="20"> ESPANHA</td>
+          <tr>
+            <th scope="row"><img src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Espanha" width="50" height="30"> ESPANHA</th>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -63,10 +61,9 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><img src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" width="40" height="20"> JAPÃO</td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" width="50" height="30"> JAPÃO</th>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -76,70 +73,94 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-</fieldset>
-<br>
-<fieldset>
-    <legend>1º RODADA</legend>
-<br>
-<b>SEG 21/11/2022 -</b> INTERNACIONAL KHALIFA <b>- 10:00</b>
-<br>
-<br>
-Alemanha  <img title="ALEMANHA" src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" height="20" width="40">   <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="20" height="20">   <img title="JAPÃO" src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" height="20" width="40">  Japão
-<br>
-<br>
+          </tr>
+        </tbody>
+      </table>
+
+
+<h1 class="display-4 rodadas">1º RODADA</h1>
+<h1 class="display-5 jogos"><b>SEG 21/11/2022 -</b><i> INTERNACIONAL KHALIFA </i><b>- 10:00</b></h1>
+      
+<h1 class="d-flex justify-content-center display-6 bandeiras">
+  <span  style="flex: 1 1 0px" class="text-end">Alemanha</span>
+  <div class="mx-3">
+    <img title="Alemanha" src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" height="50" width="80">
+    <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="35" height="35">
+    <img title="Japão" src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" height="50" width="80">
+  </div>
+  <span  style="flex: 1 1 0px" class="text-start">Japão</span>
+</h1>
+
 <hr>
-<br>
-<b>SEG 21/11/2022 -</b> AL THUMAMA <b>- 13:00</b>
-<br>
-<br>
-Espanha  <img title="ESPANHA" src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Espanha" height="20" width="40">   <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="20" height="20">   <img title="Costa Rica ou Nova Zelândia" src="TelaPreta.png" alt="Bandeira do ?" height="20" width="40">  Costa Rica ou Nova Zelândia
-<br>
-<br>
-</fieldset>
-<br>
-<fieldset>
-    <legend>2º RODADA</legend>
-<br>
-<b>DOM 27/11/2022 -</b> AL RYYAN <b>- 07:00</b>
-<br>
-<br>
-Japão  <img title="JAPÃO" src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" height="20" width="40">   <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="20" height="20">   <img title="Costa Rica ou Nova Zelândia" src="TelaPreta.png" alt="Bandeira do ?" height="20" width="40">  Costa Rica ou Nova Zelândia
-<br>
-<br>
+
+<h1 class="display-5 jogos"><b>SEG 21/11/2022 -</b><i> AL THUMAMA </i><b>- 13:00</b></h1>
+<h1 class="d-flex justify-content-center display-6 bandeiras">
+  <span  style="flex: 1 1 0px" class="text-end">Espanha</span>
+  <div class="mx-3">
+    <img title="Espanha" src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Espanha" height="50" width="80">
+    <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="35" height="35">
+    <img title="Costa Rica" src="GrupoE/BandeiraCostaRica.png" alt="Bandeira da Costa Rica" height="50" width="80">
+  </div>
+  <span  style="flex: 1 1 0px" class="text-start">Costa Rica</span>
+</h1>
+
+<h1 class="display-4 rodadas">2º RODADA</h1>
+<h1 class="display-5 jogos"><b>DOM 27/11/2022 -</b><i> AL RYYAN </i><b>- 07:00</b></h1>
+<h1 class="d-flex justify-content-center display-6 bandeiras">
+  <span  style="flex: 1 1 0px" class="text-end">Japão</span>
+  <div class="mx-3">
+    <img title="Japão" src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" height="50" width="80">
+    <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="35" height="35">
+    <img title="Costa Rica" src="GrupoE/BandeiraCostaRica.png" alt="Bandeira da Costa Rica" height="50" width="80">
+  </div>
+  <span  style="flex: 1 1 0px" class="text-start">Costa Rica</span>
+</h1>
+
 <hr>
-<br>
-<b>DOM 27/11/2022 -</b> AL KHOR <b>- 16:00</b>
-<br>
-<br>
-Espanha  <img title="ESPANHA" src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Espanha" height="20" width="40">   <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="20" height="20">   <img title="ALEMANHA" src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" height="20" width="40">  Alemanha
-<br>
-<br>
-</fieldset>
-<br>
-<fieldset>
-    <legend>3º RODADA</legend>
-<br>
-<b>QUI 01/12/2022 -</b> INTERNACIONAL KHALIFA <b>- 16:00</b>
-<br>
-<br>
-Japão  <img title="JAPÃO" src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" height="20" width="40">   <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="20" height="20">   <img title="ESPANHA" src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Espanha" height="20" width="40">  Espanha
-<br>
-<br>
+
+<h1 class="display-5 jogos"><b>DOM 27/11/2022 -</b><i> AL KHOR </i><b>- 16:00</b></h1>
+<h1 class="d-flex justify-content-center display-6 bandeiras">
+  <span  style="flex: 1 1 0px" class="text-end">Espanha</span>
+  <div class="mx-3">
+    <img title="Espanha" src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Espanha" height="50" width="80">
+    <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="35" height="35">
+    <img title="Alemanha" src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" height="50" width="80">
+  </div>
+  <span  style="flex: 1 1 0px" class="text-start">Alemanha</span>
+</h1>
+
+
+<h1 class="display-4 rodadas">3º RODADA</h1>
+<h1 class="display-5 jogos"><b>QUI 01/12/2022 -</b><i> INTERNACIONAL KHALIFA </i><b>- 16:00</b></h1>
+<h1 class="d-flex justify-content-center display-6 bandeiras">
+  <span  style="flex: 1 1 0px" class="text-end">Japão</span>
+  <div class="mx-3">
+    <img title="Japão" src="GrupoE/BandeiraJapão.png" alt="Bandeira do Japão" height="50" width="80">
+    <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="35" height="35">
+    <img title="Espanha" src="GrupoE/BandeiraEspanha.png" alt="Bandeira da Espanha" height="50" width="80">
+  </div>
+  <span  style="flex: 1 1 0px" class="text-start">Espanha</span>
+</h1>
+
 <hr>
-<br>
-<b>QUI 01/12/2022 -</b> AL KHOR <b>- 16:00</b>
-<br>
-<br>
-Costa Rica ou <br> Nova Zelândia  <img title="Costa Rica ou Nova Zelândia" src="TelaPreta.png" alt="Bandeira do ?" height="20" width="40">   <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="20" height="20">   <img title="ALEMANHA" src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" height="20" width="40">  Alemanha
-<br>
-<br>
-</fieldset>
-<br><br><br>
-<a href="grupo_d.html"><img title="VOLTAR PARA O GRUPO D" src="SetaEsquerda.png" width="32" height="32"></a>   <a href="grupo_f.html"><img title="IR PARA O GRUPO F" src="SetaDireita.png" width="32" height="32"></a>
+
+<h1 class="display-5 jogos"><b>QUI 01/12/2022 -</b><i> AL KHOR </i><b>- 16:00</b></h1>
+<h1 class="d-flex justify-content-center display-6 bandeiras">
+  <span  style="flex: 1 1 0px" class="text-end">Costa Rica</span>
+  <div class="mx-3">
+    <img title="Costa Rica" src="GrupoE/BandeiraCostaRica.png" alt="Bandeira da Costa Rica" height="50" width="80">
+    <img src="https://images.vexels.com/media/users/3/155474/isolated/preview/4e12cd94f7591c3c851fce62fdc3d463-icone-x-cross-doodle.png" alt="X" width="35" height="35">
+    <img title="Alemanha" src="GrupoE/BandeiraAlemanha.png" alt="Bandeira da Alemanha" height="50" width="80">
+  </div>
+  <span  style="flex: 1 1 0px" class="text-start">Alemanha</span>
+</h1>
+
+<div class="d-flex justify-content-between">
+<a href="grupo_d.html"><img class="setas" title="VOLTAR PARA O GRUPO D" src="SetaEsquerda.png" width="64" height="64"></a>   <a href="grupo_f.html"><img class="setas" title="IR PARA O GRUPO F" src="SetaDireita.png" width="64" height="64"></a>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
